@@ -9,7 +9,7 @@ terraform {
 
 provider "google" {
   project     = "rich-solstice-408906"
-  region      = "asia-south1"
-  zone        = "asia-south1-a"
+  region      = var.region
+  zone        = var.zone
   credentials = file("account.json")
 }
