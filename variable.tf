@@ -9,14 +9,11 @@ variable "project" {
 }
 
 variable "region" {
-    default = asia-south1
     type = string
 }
 variable "zone" {
-    default = asia-south1-a
     type = string
 }
 variable "repository" {
-    default = samples
     type = string
 }
