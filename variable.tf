@@ -1,19 +1,19 @@
 variable "cluster_name" {
-    default = "cluster-1"
-    type = string
+  default = "cluster-1"
+  type    = string
 }
 
 variable "project" {
 
-    type = string
+  type = string
 }
 
 variable "region" {
-    type = string
+  type = string
 }
 variable "zone" {
-    type = string
+  type = string
 }
 variable "repository" {
-    type = string
+  type = string
 }
