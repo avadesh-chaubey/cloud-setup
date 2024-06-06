@@ -20,3 +20,6 @@ variable "repository" {
   type = string
   default = "node"
 }
+variable "GOOGLE_CREDENTIALS" {
+  
+}
