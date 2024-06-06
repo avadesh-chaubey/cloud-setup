@@ -14,9 +14,9 @@ variable "region" {
 }
 variable "zone" {
   type = string
-  default = "asia-south1-b"
+  default = "asia-south1-a"
 }
 variable "repository" {
   type = string
-  default = "python"
+  default = "node"
 }

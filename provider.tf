@@ -2,13 +2,13 @@ terraform {
   required_providers {
     google = {
       source  = "hashicorp/google"
-      version = "5.13.0"
+      version = "5.32.0"
     }
   }
-  backend "gcs" {
-    bucket = "tf-state"
-    prefix = "terraform/state"
-  }
+  # backend "gcs" {
+  #   bucket = "tf-state"
+  #   prefix = "terraform/state"
+  # }
 }
 
 provider "google" {
