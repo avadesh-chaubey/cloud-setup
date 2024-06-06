@@ -4,16 +4,19 @@ variable "cluster_name" {
 }
 
 variable "project" {
-
+  default = "third-node-368905"
   type = string
 }
 
 variable "region" {
   type = string
+  default = "asia-south1"
 }
 variable "zone" {
   type = string
+  default = "asia-south1-b"
 }
 variable "repository" {
   type = string
+  default = "python"
 }

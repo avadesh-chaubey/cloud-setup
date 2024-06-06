@@ -6,13 +6,13 @@ terraform {
     }
   }
   backend "gcs" {
-    bucket = "tf-state-prod"
+    bucket = "tf-state"
     prefix = "terraform/state"
   }
 }
 
 provider "google" {
-  project     = "rich-solstice-408906"
+  project     = var.project
   region      = var.region
   zone        = var.zone
   credentials = file("account.json")
