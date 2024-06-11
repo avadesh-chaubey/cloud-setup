@@ -1,5 +1,5 @@
 variable "cluster_name" {
-  default = "cluster-1"
+  default = "k8s"
   type    = string
 }
 
