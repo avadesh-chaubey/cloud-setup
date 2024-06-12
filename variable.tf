@@ -17,8 +17,8 @@ variable "zone" {
   default = "asia-south1-a"
 }
 variable "repository" {
-  type = string
-  default = "node"
+  type = list(string)
+  default = ["node","rstudio"]
 }
 variable "GOOGLE_CREDENTIALS" {
   
